@@ -1,6 +1,5 @@
 const AccessibilityDocument = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Hero Header */}
       <section className="relative bg-gradient-to-r from-background via-secondary/20 to-background border-b border-border/30">
         <div className="absolute inset-0 hero-gradient opacity-50" />
@@ -151,7 +150,7 @@ const AccessibilityDocument = () => {
                 Your feedback is vital in helping us improve. If you encounter any accessibility challenges on our 
                 website or with our services, please reach out to us.
               </p>
-              <div className="bg-card rounded-lg p-6 border border-border/30 space-y-3">
+              <div className="bg-card rounded-lg p-6 border border-border/30 space-y-3 px-[24px]">
                 <div>
                   <strong className="text-foreground">📧 Email:</strong>{' '}
                   <a href="mailto:help@aihicloud.com" className="text-primary hover:text-accent transition-smooth">
@@ -192,8 +191,6 @@ const AccessibilityDocument = () => {
           
         </div>
       </main>
-    </div>
-  );
+    </div>;
 };
-
 export default AccessibilityDocument;
