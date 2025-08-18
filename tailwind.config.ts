@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'heading': ['var(--font-heading)'],
+				'body': ['var(--font-body)']
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,6 +65,11 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				brand: {
+					teal: 'hsl(var(--brand-teal))',
+					purple: 'hsl(var(--brand-purple))',
+					magenta: 'hsl(var(--brand-magenta))'
 				}
 			},
 			borderRadius: {
