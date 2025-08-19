@@ -9,18 +9,14 @@ const AccessibilityDocument = () => {
               <h1 className="text-4xl lg:text-5xl font-bold font-heading text-foreground">
                 Accessibility
               </h1>
-              <p className="text-lg text-muted-foreground max-w-2xl">
+              <p className="text-lg max-w-2xl text-slate-50">
                 AIHI's commitment to inclusive digital experiences
               </p>
             </div>
             
             {/* 3D Phone Hero Image */}
             <div className="hidden md:block">
-              <img 
-                src="/lovable-uploads/a85c88fc-5427-4028-a1fa-202012dbe1b3.png" 
-                alt="3D illustration of hand holding phone with document interface" 
-                className="w-32 h-32 object-contain transform hover:scale-105 transition-transform duration-300"
-              />
+              <img src="/lovable-uploads/a85c88fc-5427-4028-a1fa-202012dbe1b3.png" alt="3D illustration of hand holding phone with document interface" className="w-32 h-32 object-contain transform hover:scale-105 transition-transform duration-300" />
             </div>
           </div>
         </div>
@@ -28,7 +24,7 @@ const AccessibilityDocument = () => {
       
       {/* Copyright Notice */}
       <section className="bg-secondary/20 border-b border-border/30">
-        <div className="container mx-auto px-4 py-6">
+        <div className="container mx-auto py-6 px-[32px]">
           <p className="text-sm text-muted-foreground max-w-4xl">
             All contents are Copyright © 2025 AIHI. All rights reserved. Without prior written approval from AIHI 
             Pvt. Ltd., no portion of this document may be copied/reproduced in any form or by any means.
@@ -38,7 +34,7 @@ const AccessibilityDocument = () => {
       
       {/* Contents */}
       <section className="bg-background border-b border-border/30">
-        <div className="container mx-auto px-4 py-8">
+        <div className="container mx-auto py-8 px-[32px]">
           <div className="max-w-4xl">
             <h2 className="text-xl font-semibold mb-6 text-foreground">Contents</h2>
             <ol className="space-y-2 text-muted-foreground">
@@ -54,7 +50,7 @@ const AccessibilityDocument = () => {
       </section>
       
       {/* Main Content */}
-      <main className="container mx-auto px-4 py-12">
+      <main className="container mx-auto py-12 px-[32px]">
         <div className="max-w-4xl space-y-12">
           
           {/* Section 1: Accessibility Statement */}
