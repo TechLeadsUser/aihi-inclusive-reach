@@ -14,18 +14,13 @@ const AccessibilityDocument = () => {
               </p>
             </div>
             
-            {/* Clipboard Icon */}
+            {/* 3D Phone Hero Image */}
             <div className="hidden md:block">
-              <div className="w-24 h-28 bg-gradient-to-br from-orange-400 to-orange-600 rounded-xl shadow-lg transform rotate-3 hover:rotate-0 transition-transform">
-                <div className="w-full h-full bg-white rounded-lg m-1 flex flex-col items-center justify-center space-y-1">
-                  <div className="w-12 h-1 bg-accent rounded-full opacity-60" />
-                  <div className="w-10 h-1 bg-accent rounded-full opacity-40" />
-                  <div className="w-14 h-1 bg-accent rounded-full opacity-60" />
-                  <div className="w-8 h-1 bg-accent rounded-full opacity-40" />
-                  <div className="w-12 h-1 bg-accent rounded-full opacity-60" />
-                </div>
-                <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-6 h-4 bg-accent rounded-t-lg" />
-              </div>
+              <img 
+                src="/lovable-uploads/a85c88fc-5427-4028-a1fa-202012dbe1b3.png" 
+                alt="3D illustration of hand holding phone with document interface" 
+                className="w-32 h-32 object-contain transform hover:scale-105 transition-transform duration-300"
+              />
             </div>
           </div>
         </div>
