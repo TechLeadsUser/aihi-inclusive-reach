@@ -4,7 +4,7 @@ const AccessibilityDocument = () => {
       <section className="relative bg-gradient-to-r from-brand-teal via-brand-purple to-brand-magenta border-b border-border/30">
         <div className="absolute inset-0 bg-background/10" />
         <div className="relative container mx-auto px-4 py-16">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between px-[32px]">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-5xl font-bold font-heading text-foreground">
                 Accessibility
