@@ -1,8 +1,8 @@
 const AccessibilityDocument = () => {
   return <div className="min-h-screen bg-background">
       {/* Hero Header */}
-      <section className="relative bg-gradient-to-r from-background via-secondary/20 to-background border-b border-border/30">
-        <div className="absolute inset-0 hero-gradient opacity-50" />
+      <section className="relative bg-gradient-to-r from-brand-teal via-brand-purple to-brand-magenta border-b border-border/30">
+        <div className="absolute inset-0 bg-background/10" />
         <div className="relative container mx-auto px-4 py-16">
           <div className="flex items-center justify-between">
             <div className="space-y-4">
