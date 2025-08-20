@@ -24,7 +24,7 @@ const AccessibilityFocus = () => {
     description: "Accessible across devices and assistive technologies for flexible, inclusive access.",
     gradient: "from-brand-teal to-brand-teal/60"
   }];
-  return <section className="py-20 bg-secondary/30">
+  return <section className="bg-secondary/30 py-[40px]">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center space-y-4 mb-16">

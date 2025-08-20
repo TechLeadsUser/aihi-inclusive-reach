@@ -1,5 +1,5 @@
 const AccessibilityCommitment = () => {
-  return <section className="py-20 bg-background">
+  return <section className="bg-background py-[40px]">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-card card-gradient rounded-2xl p-8 lg:p-12 shadow-card border border-border/50 relative overflow-hidden">
