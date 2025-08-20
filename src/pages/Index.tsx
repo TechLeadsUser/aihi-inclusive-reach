@@ -1,14 +1,22 @@
-import Header from "@/components/Header";
-import AccessibilityDocument from "@/components/AccessibilityDocument";
+import AccessibilityHero from "@/components/AccessibilityHero";
+import AccessibilityApproach from "@/components/AccessibilityApproach";
+import AccessibilityFocus from "@/components/AccessibilityFocus";
+import AccessibilityCommitment from "@/components/AccessibilityCommitment";
+import AccessibilityContact from "@/components/AccessibilityContact";
+import AccessibilityVision from "@/components/AccessibilityVision";
 import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
-      <AccessibilityDocument />
+    <main className="min-h-screen bg-background">
+      <AccessibilityHero />
+      <AccessibilityApproach />
+      <AccessibilityFocus />
+      <AccessibilityCommitment />
+      <AccessibilityContact />
+      <AccessibilityVision />
       <Footer />
-    </div>
+    </main>
   );
 };
 
