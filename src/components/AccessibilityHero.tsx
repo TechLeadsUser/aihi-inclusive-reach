@@ -22,8 +22,8 @@ const AccessibilityHero = () => {
           {/* Right side - Phone illustration */}
           <div className="relative flex justify-center lg:justify-end">
             <img 
-              src="/lovable-uploads/7decd6eb-0925-443b-b55b-84aca5654aa6.png" 
-              alt="3D mobile phone illustration representing accessible technology"
+              src="/lovable-uploads/cabe82d0-9339-4bf0-8af9-d6594e2d2466.png" 
+              alt="3D hand holding mobile phone representing accessible technology"
               className="w-64 h-auto lg:w-80"
             />
           </div>
