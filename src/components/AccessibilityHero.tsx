@@ -1,6 +1,6 @@
 const AccessibilityHero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative h-[360px] flex items-center justify-center overflow-hidden">
       {/* Background gradient - teal to purple to magenta */}
       <div className="absolute inset-0 bg-gradient-to-r from-teal-400 via-purple-500 to-pink-500" />
       
