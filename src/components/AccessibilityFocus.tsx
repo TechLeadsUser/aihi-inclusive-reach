@@ -28,10 +28,10 @@ const AccessibilityFocus = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold font-heading">
+            <h2 className="text-4xl font-heading lg:text-3xl font-semibold">
               Our <span className="brand-gradient">Focus Areas</span>
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-muted-foreground max-w-2xl mx-auto text-base">
               We prioritize key areas that make the biggest impact on user experience and accessibility.
             </p>
           </div>
@@ -44,10 +44,10 @@ const AccessibilityFocus = () => {
                   
                   {/* Content */}
                   <div className="space-y-3">
-                    <h3 className="text-xl font-semibold font-heading group-hover:text-primary transition-smooth">
+                    <h3 className="font-semibold font-heading group-hover:text-primary transition-smooth text-lg">
                       {area.title}
                     </h3>
-                    <p className="text-muted-foreground text-sm leading-relaxed">
+                    <p className="text-muted-foreground leading-relaxed text-sm">
                       {area.description}
                     </p>
                   </div>

@@ -10,13 +10,13 @@ const AccessibilityCommitment = () => {
             <div className="relative space-y-6">
               <div className="flex items-center space-x-3 mb-6">
                 
-                <h2 className="text-3xl lg:text-4xl font-bold font-heading">
+                <h2 className="text-3xl font-bold font-heading lg:text-3xl">
                   Commitment to <span className="brand-gradient">Improvement</span>
                 </h2>
               </div>
               
               <div className="space-y-4">
-                <p className="text-lg lg:text-xl text-foreground leading-relaxed">
+                <p className="text-lg text-foreground leading-relaxed lg:text-base">
                   Accessibility is an ongoing journey. While some areas are still being 
                   improved, we are actively working to enhance usability, remove barriers, 
                   and create inclusive digital experiences.
@@ -25,7 +25,7 @@ const AccessibilityCommitment = () => {
                 <div className="bg-secondary/50 rounded-xl p-6 border border-border/30">
                   <div className="flex items-start space-x-4">
                     
-                    <div className="text-muted-foreground">
+                    <div className="text-muted-foreground rounded-sm">
                       We continuously review and enhance our platforms, ensuring that every 
                       update brings us closer to our goal of universal accessibility.
                     </div>

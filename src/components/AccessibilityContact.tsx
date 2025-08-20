@@ -3,10 +3,10 @@ const AccessibilityContact = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center space-y-4 mb-12">
-            <h2 className="text-4xl lg:text-5xl font-bold font-heading">
+            <h2 className="text-4xl font-heading lg:text-3xl font-semibold">
               Feedback & <span className="brand-gradient">Support</span>
             </h2>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-muted-foreground text-base">
               We're here to help and improve together
             </p>
           </div>
@@ -49,7 +49,7 @@ const AccessibilityContact = () => {
               {/* Right side - Message */}
               <div className="space-y-6">
                 <div className="bg-gradient-to-br from-primary/5 to-accent/5 rounded-xl p-6 border border-primary/10">
-                  <p className="text-foreground leading-relaxed">
+                  <p className="text-foreground leading-relaxed text-sm">
                     If you face challenges while accessing our website or services, 
                     please contact us. We will make every effort to provide information 
                     in an accessible format.
@@ -58,7 +58,7 @@ const AccessibilityContact = () => {
                 
                 <div className="flex items-center space-x-3 text-sm text-muted-foreground">
                   <div className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                  <span>We typically respond within 24 hours</span>
+                  <span className="text-sm">We typically respond within 24 hours</span>
                 </div>
               </div>
             </div>

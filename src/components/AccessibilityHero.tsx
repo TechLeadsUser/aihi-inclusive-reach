@@ -5,7 +5,7 @@ const AccessibilityHero = () => {
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center px-[24px]">
           {/* Left side - Text content */}
           <div className="space-y-8">
             <div className="space-y-6">
